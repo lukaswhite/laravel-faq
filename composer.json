@@ -6,6 +6,12 @@
         "faq",
         "lpm"
     ],
+    "repositories": [      
+      {
+        "type" : "vcs",
+        "url": "https://github.com/lukaswhite/eloquentRankable.git"
+      }
+    ],
     "authors": [
         {
             "name": "Lukas White",
@@ -19,7 +25,7 @@
     "require": {
         "php": ">=5.3.0",
         "laravel/framework": "4.1.x",
-        "rtablada/eloquent-rankable": "dev-master"
+        "lukaswhite/eloquent-rankable": "dev-master"
     },
     "autoload": {
         "classmap": [
