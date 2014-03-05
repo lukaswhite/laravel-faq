@@ -9,7 +9,7 @@
     "repositories": [      
       {
         "type" : "vcs",
-        "url": "https://github.com/lukaswhite/eloquentRankable.git"
+        "url": "https://github.com/lukaswhite/eloquent-rankable.git"
       }
     ],
     "authors": [
