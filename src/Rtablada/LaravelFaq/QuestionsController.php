@@ -17,7 +17,7 @@ class QuestionsController extends BaseController
 	{
 		$faqs = $this->faqRepo->paginate();
 
-		return View::make('laravel-faq::home', compact('faqs'));
+		return View::make(Config::get('laravel-faq::views.home'), compact('faqs'));
 	}
 
 	public function create()
